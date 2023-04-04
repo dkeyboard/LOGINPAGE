@@ -24,7 +24,7 @@ public class Second_Page extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Second_Page.this,Front_Page.class);
-                Toast.makeText(Second_Page.this,"Logout Successful",Toast.LENGTH_SHORT).show();
+                Toast.makeText(Second_Page.this,"Logout Successfully",Toast.LENGTH_SHORT).show();
                 startActivity(i);
             }
         });
